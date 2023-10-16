@@ -1,9 +1,8 @@
 const express=require("express");
-const User=require("../models/user");
 const router=express.Router();
-const{v4:uuidv4}=require("uuid");
+const {v4:uuidv4}=require("uuid");
 const jwt=require("jsonwebtoken");
-const User = require("../models/user");
+const User =require("../models/user");
 const secretKey="My secret key 1234.";
 const options={
     expressIn:"1d"
@@ -13,6 +12,7 @@ router.post("/register",async(reg,res)=>{
         const User=new User(req.body);
         user._id=uuidv4();
         user.createDate= new Date();
+        user.isAdmin=false;
         await User.save();
         user.isAdmin=false;
         const token=jwt.sign({},secretKey.options);
@@ -24,3 +24,4 @@ router.post("/register",async(reg,res)=>{
        res.status(500).json({message:error.message});
     }
 });
+module.exports=router;
