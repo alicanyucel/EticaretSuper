@@ -14,7 +14,6 @@ router.post("/register",async(reg,res)=>{
         user.createDate= new Date();
         user.isAdmin=false;
         await User.save();
-        user.isAdmin=false;
         const token=jwt.sign({},secretKey.options);
         let model={token:token,user:user};
         res.json(model);
