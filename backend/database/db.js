@@ -7,3 +7,4 @@ const connection=()=>{
     })
     .then(()=>console.log("bağlantı sağlam")).catch((err)=>console.log("bağlantı yok" + err.message));
 }
+module.exports=connection;
