@@ -13,6 +13,7 @@ router.post("/register",async(reg,res)=>{
         user._id=uuidv4();
         user.createDate= new Date();
         // solved problem
+        //500 bad request returned.
         user.isAdmin=false;
         await User.save();
         const token=jwt.sign({},secretKey.options);
