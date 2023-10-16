@@ -18,7 +18,7 @@ router.post("/register",async(reg,res)=>{
         let model={token:token,user:user};
         res.json(model);
     }
-    catch(err)
+    catch(error)
     {
        res.status(500).json({message:error.message});
     }
