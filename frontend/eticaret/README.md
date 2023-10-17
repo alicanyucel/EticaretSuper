@@ -1,4 +1,4 @@
-# Eticaret ALİ CAN YÜCEL İŞE GİRİŞ TASKI
+# Eticaret ALİ CAN YÜCEL İŞE GİRİŞ TASKI ANGULAR MONGODB VE NODE JS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
 
