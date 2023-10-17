@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { MessageResponseModel } from 'src/app/common/models/message.response.model';
-import { GenericHttpService } from 'src/app/common/services/generic-http.service';
+import { GenericHttpService } from 'src/app/common/services/generic.http.service.';
 import { CategoryModel } from '../models/category.model';
 
 @Injectable({

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { GenericHttpService } from 'src/app/common/services/generic-http.service';
+import { GenericHttpService } from 'src/app/common/services/generic.http.service.';
 import { BasketModel } from '../models/basket.model';
 import { MessageResponseModel } from 'src/app/common/models/message.response.model';
 
