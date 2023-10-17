@@ -51,11 +51,11 @@ export const routes: Routes = [
             },
             {
                 path: "baskets",
-                loadComponent: ()=> import("./components/baskets/components/baskets/baskets.component").then(c=> c.BasketsComponent)
+                loadComponent: ()=> import("./components/basket/components/baskets/baskets.component").then(c=> c.BasketsComponent)
             },
             {
                 path: "orders",
-                loadComponent: ()=> import("./components/orders/components/orders/orders.component").then(c=> c.OrdersComponent)
+                loadComponent: ()=> import("./components/orders/").then(c=> c.OrdersComponent)
             }
         ]
     }
