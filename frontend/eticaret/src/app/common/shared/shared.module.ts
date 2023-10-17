@@ -7,8 +7,6 @@ import { BlankComponent } from '../components/blank/blank.component';
 import { TableComponent } from '../components/table/table.component';
 import { TrCurrencyPipe } from 'tr-currency';
 
-
-
 @NgModule({
   declarations: [],
   imports: [
