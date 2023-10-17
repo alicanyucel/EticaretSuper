@@ -5,8 +5,8 @@ import { CategoryService } from '../categories/services/category.service';
 import { RequestModel } from 'src/app/common/models/request.model';
 import { ProductService } from '../products/services/product.service';
 import { ProductModel } from '../products/models/product.model';
-import { BasketModel } from '../baskets/models/basket.model';
-import { BasketService } from '../baskets/services/basket.service';
+import { BasketModel } from '../basket/models/basket.model';
+import { BasketService } from '../basket/services/basket.service';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from 'src/app/common/shared/shared.module';
-import { BasketService } from '../../baskets/services/basket.service';
+import { BasketService } from '../../basket/services/basket.service';
 
 @Component({
   selector: 'app-navbar',

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { MessageResponseModel } from 'src/app/common/models/message.response.model';
-import { GenericHttpService } from 'src/app/common/services/generic-http.service';
-import {BasketService} from 'src/app/components/baskets/services/basket.service';
+import { GenericHttpService } from 'src/app/common/services/generic.http.service.';
+import {BasketService} from 'src/app/components/basket/services/basket.service';
 import { OrderModel } from '../models/order.model';
 
 @Injectable({

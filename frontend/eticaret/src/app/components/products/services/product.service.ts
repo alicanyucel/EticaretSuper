@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { MessageResponseModel } from 'src/app/common/models/message.response.model';
 import { PaginationResultModel } from 'src/app/common/models/pagination-result.model';
 import { RequestModel } from 'src/app/common/models/request.model';
-import { GenericHttpService } from 'src/app/common/services/generic-http.service';
+import { GenericHttpService } from 'src/app/common/services/generic.http.service.';
 import { ProductModel } from '../models/product.model';
 
 @Injectable({
